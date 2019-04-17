@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 import glob
-from tabulate import tabulate
 
 
 game_files = glob.glob(os.path.join(os.getcwd(), 'games', '*.EVE'))
